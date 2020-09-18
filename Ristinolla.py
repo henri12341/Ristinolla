@@ -1,17 +1,5 @@
 """
-Ohjelmassa on toteutettu ristinollapeli. Tarkoitus on saada kolme omaa merkkiä
-pystyyn, vinottain tai samalle riville. Peli on 3x3 kokoisessa ruudukossa, joka
-on tallennettu self.__peliruudukkoon nappeina. Nappeja painamalla voi laittaa
-pelaajan X tai O merkin ruutuun. Vuoro vaihtuu automaattisesti. Peli tarkistaa,
-että uutta merkkiä ei laiteta jo pelatulle ruudulle eikä pelin päättymisen
-jälkeen voida tehdä uusia siirtoja.
-
-self.__vuorotekstissä ilmoitetaan vuorossa olevan pelaajan merkki ja pelin
-päättymisen ilmoittaminen. Self.__pistetilanteessa on ilmoitettu kummankin
-pelaajan voitot ja tasapelit. Pelin voi aloittaa uudestaan uusi peli -
-painnikkeesta pelin päätyttyä ja ohjelma voidaan sulkea self.__lopeta_nappaimella.
-Uuden pelin voi aloittaa vain, jos edellinen peli on päättynyt. Aloittava pelaaja
-vaihtuu, kun aloitetaan uusi peli.
+Ohjelmassa on toteutettu ristinollapeli.
 """
 
 from tkinter import *
